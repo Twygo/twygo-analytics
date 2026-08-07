@@ -12,7 +12,7 @@ Baixe o instalador na página de versões do projeto:
 
 **[⬇️ Baixar a versão mais recente](https://github.com/Twygo/twygo-analytics/releases/latest)**
 
-O arquivo se chama `Twygo-Analytics-Setup-1.0.2.exe` (cerca de 170 MB).
+O arquivo se chama `Twygo-Analytics-Setup-1.0.3.exe` (cerca de 170 MB).
 
 ---
 
@@ -27,7 +27,7 @@ O arquivo se chama `Twygo-Analytics-Setup-1.0.2.exe` (cerca de 170 MB).
    no release com o do seu download:
 
    ```powershell
-   Get-FileHash .\Twygo-Analytics-Setup-1.0.2.exe -Algorithm SHA256
+   Get-FileHash .\Twygo-Analytics-Setup-1.0.3.exe -Algorithm SHA256
    ```
 3. Escolha a pasta de instalação (ou aceite a sugerida) e conclua.
 4. O atalho **Twygo Analytics** aparece na Área de Trabalho e no Menu Iniciar.
@@ -45,7 +45,7 @@ de qual você recebeu.
 ### Se o instalador foi preparado para o seu ambiente
 
 É o caso quando o nome do arquivo traz o nome da sua empresa, por exemplo
-`Twygo-Analytics-Acme-1.0.2.exe`.
+`Twygo-Analytics-Acme-1.0.3.exe`.
 
 **Não há nada a configurar.** O aplicativo já sabe de onde ler os dados: abra e
 os painéis carregam. A primeira carga leva de 10 a 40 segundos, buscando os dados
@@ -53,7 +53,7 @@ da API; depois vem do cache local e as aberturas seguintes são imediatas.
 
 ### Se o instalador é a versão genérica
 
-É o caso do arquivo `Twygo-Analytics-Setup-1.0.2.exe`. Na primeira abertura ele
+É o caso do arquivo `Twygo-Analytics-Setup-1.0.3.exe`. Na primeira abertura ele
 pede duas informações:
 
 | Campo | O que informar |
